@@ -22,10 +22,10 @@ import {
 
 export default function App() {
   return (
-    <Dropdown backdrop="blur">
+    <Dropdown backdrop="opaque">
       <DropdownTrigger>
         <Button
-          className="font-semibold h-16"
+          className="font-semibold h-16 bg-[#18181B]"
           fullWidth
           radius="none"
           variant="shadow"

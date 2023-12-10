@@ -9,7 +9,7 @@ import React from "react";
 
 function ChannelNavbar() {
   return (
-    <div className="flex justify-between items-center px-3">
+    <div className="flex justify-between items-center">
       <div className="flex items-center space-x-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"

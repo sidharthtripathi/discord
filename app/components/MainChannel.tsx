@@ -4,7 +4,7 @@ import Chatbox from "./Chatbox";
 
 function MainChannel() {
   return (
-    <div className="flex flex-col grow">
+    <div className="flex flex-col grow px-3">
       <ChannelNavbar />
       <Chatbox />
     </div>

@@ -1,16 +1,20 @@
-import { Button, Input, Textarea } from "@nextui-org/react";
+import { Avatar, Button, Input, Textarea } from "@nextui-org/react";
 import { FileIcon, FilePlusIcon, MagicWandIcon } from "@radix-ui/react-icons";
 import React from "react";
 
 function Chatbox() {
   return (
     <div className="flex grow flex-col">
-      <div className="grow">
-        <div className="flex h-full w-full flex-col justify-center items-center gap-10 ">
+      <div className="grow flex h-full w-full items-end ">
+        <div className="mb-2">
+          <Avatar src="/images/kitty1.jpg" size="lg"></Avatar>
+          <p className="font-extrabold text-3xl my-4">Rookie</p>
+          <p className="font-semibold text-xl mb-10">Rookie001</p>
+          <p className="font-thin">This is the beginning of new chat</p>
           <img
-            src="https://media.tenor.com/cqQ9eq9xIrgAAAAi/cat.gif"
+            src="https://media.tenor.com/TtqzazSabVcAAAAj/hello.gif"
             alt="cat imag"
-            className="object-contain w-28 h-28"
+            className="object-contain w-28 h-28 mb-2"
           />
 
           <Button size="lg" color="default" variant="shadow">
